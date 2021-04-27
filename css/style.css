@@ -1,0 +1,80 @@
+.container-ciudad {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+div.bandera{
+    text-align: center;
+    }
+img.bandera:hover{
+    background-color: transparent;
+}    
+div.info{
+        text-align: center;
+        }    
+
+select:hover{
+    color:rgb(32, 16, 179);
+    height: 30px;
+    width: 310px;
+    background-color: peachpuff;
+}
+select{
+    text-transform: uppercase;
+    height: 30px;
+    width: 170px;
+}
+
+div.map {
+    height: 500px;
+    width: 500px;
+    display:block;
+    margin:auto;
+
+}
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px ;
+}
+footer {
+    clear: both;
+    color: #1c023d;
+    background-color: #e2751c;
+    height: 30px;
+    text-align: center;
+}
+.map:hover{
+    width: 800px;
+    height: 800px;
+}
+
+.countries {
+    height: 100%;
+    width: 100%;
+}
+
+.flag-container {
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    background-image: url('../img/fondo.jpg');
+}
+img.bandera{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 500px;
+}
+h1.name:hover{
+    text-transform: uppercase;
+    background-color: orange;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(4, 37, 3);
+}
+p:hover{
+    background-color: chocolate;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fundamentos 07</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div>
+        <form action=""></form>
+        <select class="ciudad" id="ciudad" name="ciudad">
+        <option value="bogota">Bogota</option>
+        <option value="brasilia">Brasilia</option>
+        <option value="buenos aires">Bueno Aires</option>
+        <option value="lima">Lima</option>
+        <option value="santiago">Santiago</option>
+        <option value="montevideo">Montevideo</option>
+        <option value="asuncion">Asuncion</option>
+        <option value="lapaz">La paz</option>
+        <option value="caracas">Caracas</option>
+        <option value="quito">Quito</option>
+
+        </select>
+    
+    <div class="container-ciudad">
+        <h1 class="name" id="name"></h1>
+        <p class="temp"></p>
+        <p class="desc"></p>
+        <p class="time"></p>
+        <p class="lon"></p>
+        <p class="lat"></p>
+        
+
+    </div>
+    <select class="pais" id="pais"></select>
+    <div class="container-bandera" id="container-bandera">
+        
+        <div class="bandera" id="flag-container">
+            <img class="bandera" src="" alt="">
+        </div>
+        <div class="info" id="info-container">
+            <p>Capital: <span id="capital"></span></p>
+            <p>Dialing Code: <span id="dialing-code"></span></p>
+            <p>Poblacion: <span id="population"></span></p>
+            <p>Tipo de Moneda: <span id="currencies"></span></p>
+            <p>Region: <span id="region"></span></p>
+            <p>Subregion: <span id="subregion"></span></p>
+        </div>
+    </div>
+
+     
+    
+    <div class="map" id="map">
+        <p>mapas</p>
+    </div>
+
+    <div class="container my-5 text-center">
+        <button class="btn btn-danger w-100" onclick="traer()">Obtener</button>
+        <div class="mt-5" id="contenido">
+            
+        </div>
+    </div>
+
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOZ1IiXLMhAGGHNUToIDa2toiDh__PqrE&callback=initMap&libraries=&v=weekly"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/app1.js"></script>
+    
+
+</body>
+<footer>
+    &copy; 2021 Heladeria deno 
+</footer>
+</html>
